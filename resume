@@ -1,0 +1,156 @@
+\documentclass[a4paper,10pt]{article}
+
+% Packages
+\usepackage{latexsym}
+\usepackage{marvosym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{geometry}
+
+% Adjust margin for compact layout
+\geometry{margin=1cm}
+
+% Page style
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Color definitions
+\definecolor{darkblue}{HTML}{2C3E50}
+\definecolor{gray}{HTML}{95A5A6}
+\definecolor{customblue}{HTML}{0073E6} % A brighter, professional blue
+
+% Layout adjustments
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.2em}
+\setlist[itemize]{leftmargin=1em, label=--, itemsep=0.2em, topsep=0.2em}
+
+% Commands
+\newcommand{\resheading}[1]{
+  \vspace{4pt}
+  \textbf{\large{\textcolor{darkblue}{#1}}}
+  \vspace{4pt}
+  \hrule
+}
+
+\newcommand{\header}[4]{
+  \begin{center}
+    {\Huge \textbf{#1}} \\[0.5em]
+    \href{mailto:#2}{\texttt{#2}} | \texttt{#3} | \href{#4}{#4}
+  \end{center}
+}
+
+% Document begins
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge \textbf{Sahib Yar}} \\[0.5em]
+    \href{mailto:sahibyaar@hotmail.com}{\texttt{sahibyaar@hotmail.com}} | +92 336 6037321 | 
+    \href{https://sahibyar.github.io}{\texttt{sahibyar.github.io}} | 
+    \href{https://github.com/sahibyar}{\texttt{github.com/sahibyar}} | 
+    \href{https://linkedin.com/in/sahibyar}{\texttt{linkedin.com/in/sahibyar}}
+\end{center}
+\vspace{-1em}
+
+% Summary
+\resheading{Summary}
+Lead Software Engineer with diverse technical expertise in software engineering, leadership, and mentoring. Skilled in architecting robust, scalable, and maintainable solutions for high-complexity problems. Proficient in identifying, solving, and preventing technical debt to ensure best practices.
+
+% Experience
+\resheading{Experience}
+\textbf{\large \textcolor{customblue}{Lead Software Engineer, Securiti.ai (Remote, Pakistan)}} \hfill \textcolor{gray}{Nov 2021 -- Dec 2024} \\
+\emph{Tech Stack: Golang, Java11, Python, JUnit5, Apache Maven, J2EE, RESTful Architecture, JSON, Protobuf, AWS SQS, Redis, Kubernetes, PostgreSQL} \\
+\begin{itemize}[leftmargin=1em, label={--}]
+    \item \textbf{Microservices and Data Processing:} Developed scalable microservices for personal data identification in structured/unstructured formats, leveraging proprietary and open-source libraries. 
+    \item \textbf{Access Control and Security:} Implemented fine-grained role-based access control for APIs and sensitive payloads. (Go)
+    \item \textbf{Performance Enhancements:} Optimized network latency by replacing HTTP GET with WebSocket communication and Redis Streams. Improved structured data parsing latency by 50\%. (Go, Java)
+    \item \textbf{AWS Migration and Integration:} Upgraded AWS SDKs (S3, SQS, EMR) to v2.x, enhancing reliability, and designed REST APIs for secure secret management and S3 CRUD operations. (Java, Go)
+    \item \textbf{Cardinality Optimization:} Reimplemented Redis HyperLogLog for efficient terabyte-scale dataset processing. (Go, Java)
+    \item \textbf{Testing and Stability:} Improved test coverage for commercial features and stabilized pipelines with enhanced validation checks. (Go, Python)
+    \item \textbf{Code Refactoring and Tech Debt Reduction:} Reduced technical debt by refactoring and removing over 5,000 lines of redundant code. (Go, Java)
+    \item \textbf{Library Enhancements:} Contributed to open-source TableSaw library by implementing advanced CSV column data type detection. (Java)
+    \item \textbf{Document Parsing:} Optimized tools like Apache Tika and PDFBox for efficient document parsing. (Java)
+\end{itemize}
+\vspace{-0.4em}
+\textbf{Key Contributions:}
+\begin{itemize}[leftmargin=1em, label={--}]
+    \item Designed scalable subsystems to process terabyte-scale datasets.
+    \item Led a team of five engineers, achieving milestone deliverables and mentoring juniors on design patterns and code quality.
+    \item Delivered significant performance gains across network and data processing operations, improving system efficiency.
+\end{itemize}
+
+\vspace{0.5em}
+
+\textbf{\large \textcolor{customblue}{Senior Software Engineer, Afiniti (Hybrid, Pakistan)}} \hfill \textcolor{gray}{Nov 2019 -- Nov 2021} \\
+\emph{Tech Stack: C++17, CentOS, Shell Scripting, Kafka (rd-kafka, cpp-kafka), PostgreSQL, MySQL, RESTful Architecture, TCP/IP, SSL, Protobuf, POSIX Shared Memory, CMake} \\
+\begin{itemize}[leftmargin=1em, label={--}]
+    \item \textbf{Reporting System Development:} Designed a microservice-based reporting system to monitor contact center activities (e.g., call statistics, agent states) in near real time, ensuring high throughput and concurrent processing across multiple servers.
+    \item \textbf{SSL Communication System:} Developed an SSL-based communication solution integrated with Avaya Call Manager, supporting CMS protocols (6.x to 9.x) for secure and reliable data exchange.
+    \item \textbf{System Optimization:} Replaced Kafka with an asynchronous file-based database mechanism, improving throughput by 1000\% and reducing query response times by 1500\% through SQL optimization.
+    \item \textbf{Concurrent TCP Server:} Implemented a high-performance TCP server to efficiently manage multiple client connections under heavy workloads.
+    \item \textbf{Inter-Process Communication:} Used POSIX shared memory for efficient inter-process communication, enhancing data sharing between processes.
+    \item \textbf{Maintenance and Refactoring:} Refactored legacy code-bases, resolved defects, and improved system features to improve reliability and maintainability.
+    \item \textbf{Scheduled Job System:} Built and maintained a distributed scheduled job system to automate key operations across multiple servers.
+\end{itemize}
+\vspace{-0.4em}
+\textbf{Key Contributions:}
+\begin{itemize}[leftmargin=1em, label={--}]
+    \item Achieved significant performance gains (up to 1500\%) through system optimization and bottleneck resolution.
+    \item Successfully developed secure, scalable solutions for contact center monitoring and data exchange.
+    \item Improved team productivity by maintaining and modernizing critical legacy systems.
+\end{itemize}
+
+\vspace{0.5em}
+
+\textbf{\large \textcolor{customblue}{Implementation Engineer, Avanza Solutions (Oman, Somalia, Pakistan)}} \hfill \textcolor{gray}{Nov 2017 -- Nov 2019} \\
+\emph{Tech Stack: Java Spring, .NET, VC++, C#, Oracle, MSSQL, MSMQ, ISO-8583 Protocol, EMV, HSM (Thales), RESTful APIs, SOAP} \\
+\begin{itemize}[leftmargin=1em, label={--}]
+    \item \textbf{Middleware Development:} Designed scalable and secure middleware for payment systems, integrating core banking platforms, ATMs, and third-party services, and enhancing transaction throughput by optimizing legacy systems.
+    \item \textbf{ISO-8583 and EMV Integration:} Built ISO-8583-compliant EFT solutions, integrated Thales HSMs for cryptographic operations, and implemented EMV-compliant card transactions to meet international security standards.
+    \item \textbf{PA-DSS Compliance:} Upgraded back-end systems for banks like UBank and AB Bank to ensure compliance with Payment Application Data Security Standards (PA-DSS).
+    \item \textbf{On-Site Deployments:} Led successful deployments, including:
+    \begin{itemize}[leftmargin=1em, label={--}]
+        \item 1Link PayPak integration and Pay2Anyone enhancements for BankIslami, Pakistan.
+        \item MasterCard issuing certification for Premier Bank, Somalia (EMV and magnetic stripe cards).
+        \item OmanTel prepaid card integration with Bank Dhofar, Oman ATMs.
+    \end{itemize}
+    \item \textbf{Testing and Debugging Tools:} Created .NET and C++ utilities to mock ISO-8583 socket communication, streamlining transaction flow testing and debugging.
+    \item \textbf{Collaboration and Training:} Worked with cross-functional teams during the development, UAT, and deployment phases, providing technical documentation and training for banking personnel.
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{\large \textcolor{customblue}{Junior Software Engineer, InfoTech Group (Pakistan)}} \hfill \textcolor{gray}{Nov 2016 -- Nov 2017} \\
+\emph{Tech Stack: C++, Node.js, Angular 2.0, .NET, MSMQ, FAST Protocol, RESTful APIs, OAuth, ActionScript, Adobe Flash} \\
+\begin{itemize}[leftmargin=1em, label={--}]
+    \item \textbf{Algorithm Development:} Designed and maintained efficient algorithms for the internal SDK of a low-latency automated trading system, reducing the latency of trade execution by more than 20\% and ensuring the seamless execution of high-frequency trades.
+    \item \textbf{RESTful APIs:} Developed and consumed RESTful APIs using Node.js and Angular to enable robust client-server communication for trading operations, while also participating in code reviews and ensuring modular, reusable code.
+    \item \textbf{Frontend and Legacy Maintenance:} Maintained and improved Adobe Flash-based trading platforms, including the Ghana Stock Exchange system, while contributing to the migration of legacy systems to modern Node.js and Angular-based architectures.
+    \item \textbf{Trading System Enhancements:} Contributed to the development of a high-frequency real-time trading application with pretrade risk management, accommodating thousands of concurrent users, and ensuring compliance with secure OAuth authentication.
+    \item \textbf{Collaborative Development:} Worked with cross-functional teams to build a Single Page Application (SPA) for trading, leveraging MSMQ for asynchronous communication and the FAST protocol for high-performance data transmission in financial markets.
+\end{itemize}
+
+% Education
+\vspace{1em}
+\resheading{Education}
+\vspace{0.5em}
+\textbf{Bachelor of Science (BS), Computer Science} \hfill 2012 -- 2016 \\
+Air University, Multan, Pakistan
+
+% Open Source
+\vspace{1em}
+\resheading{Open Source Contributions}
+\begin{itemize}[leftmargin=1em, label={--}]
+  \item Contributed to \texttt{quic-go}, \texttt{go-libp2p}, \texttt{jtablesaw}, \texttt{ISO8583-go}
+  \item Exploring Web-Transport and HTTP3 protocols.
+  \item Created educational content on YouTube for software development topics.
+\end{itemize}
+
+\end{document}
