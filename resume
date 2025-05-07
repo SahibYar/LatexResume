@@ -66,6 +66,17 @@ Lead Software Engineer with diverse technical expertise in software engineering,
 
 % Experience
 \resheading{Experience}
+\textbf{\large \textcolor{customblue}{Software Engineer, CentroidSol.com (Remote, Dubai)}} \hfill \textcolor{gray}{Mar 2024 -- Present} \\
+\emph{Tech Stack: Golang, RESTful Architecture, JSON, Protobuf, AWS S3, Redis, Docker, PostgreSQL, FIX} \\
+\begin{itemize}[leftmargin=1em, label={--}]
+  \item \textbf{Connection Management:} Optimized Redis usage via batched operations and single persistent client connections, reducing overhead under high-load conditions.
+  \item \textbf{Abuse Prevention:} Designed a tiered throttling system to detect and block abusive connection attempts, applying escalating penalties based on frequency and volume from the same IP.
+  \item \textbf{Stability & Profiling:} Identified and resolved memory leaks using \texttt{pprof}, improving stability and resource efficiency under sustained traffic.
+  \item \textbf{Latency Reduction:} Replaced HTTP with WebSockets for streaming and refined data pipelines, significantly lowering execution and ingestion latency.
+  \item \textbf{Code Quality:} Refactored core components to reduce redundancy and improve maintainability.
+  \item \textbf{Security:} Implemented role-based access control for APIs and sensitive trading operations, including a secure mechanism allowing administrators to switch roles and operate as Brokers or Traders when needed.
+\end{itemize}
+\vspace{0.5em}
 \textbf{\large \textcolor{customblue}{Lead Software Engineer, Securiti.ai (Remote, Pakistan)}} \hfill \textcolor{gray}{Nov 2021 -- Dec 2024} \\
 \emph{Tech Stack: Golang, Java11, Python, JUnit5, Apache Maven, J2EE, RESTful Architecture, JSON, Protobuf, AWS SQS, Redis, Kubernetes, PostgreSQL} \\
 \begin{itemize}[leftmargin=1em, label={--}]
@@ -148,6 +159,7 @@ Air University, Multan, Pakistan
 \vspace{1em}
 \resheading{Open Source Contributions}
 \begin{itemize}[leftmargin=1em, label={--}]
+  \item Right now privately developing \texttt{MCPGen}, which can auto-generate a multiservice MCP (Message Control Protocol) server from OpenAPI v2 (Swagger), v3 (Arazzo) Spec Files. Turn API definitions and workflow specs into a smart, pluggable server that can coordinate real tasks, locally or in the cloud.
   \item Contributed to \texttt{quic-go}, \texttt{go-libp2p}, \texttt{jtablesaw}, \texttt{ISO8583-go}
   \item Exploring Web-Transport and HTTP3 protocols.
   \item Created educational content on YouTube for software development topics.
