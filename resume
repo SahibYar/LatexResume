@@ -67,14 +67,17 @@ Lead Software Engineer with diverse technical expertise in software engineering,
 % Experience
 \resheading{Experience}
 \textbf{\large \textcolor{customblue}{Software Engineer, CentroidSol.com (Remote, Dubai)}} \hfill \textcolor{gray}{Mar 2024 -- Present} \\
-\emph{Tech Stack: Golang, RESTful Architecture, JSON, Protobuf, AWS S3, Redis, Docker, PostgreSQL, FIX} \\
+\emph{Tech Stack: Golang, RESTful APIs, WebSockets, Protobuf, Redis, PostgreSQL, MongoDB, FIX, Docker, AWS S3, Linux} \\
 \begin{itemize}[leftmargin=1em, label={--}]
-  \item \textbf{Connection Management:} Optimized Redis usage via batched operations and single persistent client connections, reducing overhead under high-load conditions.
-  \item \textbf{Abuse Prevention:} Designed a tiered throttling system to detect and block abusive connection attempts, applying escalating penalties based on frequency and volume from the same IP.
-  \item \textbf{Stability & Profiling:} Identified and resolved memory leaks using \texttt{pprof}, improving stability and resource efficiency under sustained traffic.
-  \item \textbf{Latency Reduction:} Replaced HTTP with WebSockets for streaming and refined data pipelines, significantly lowering execution and ingestion latency.
-  \item \textbf{Code Quality:} Refactored core components to reduce redundancy and improve maintainability.
-  \item \textbf{Security:} Implemented role-based access control for APIs and sensitive trading operations, including a secure mechanism allowing administrators to switch roles and operate as Brokers or Traders when needed.
+  \item \textbf{System Optimization & Profiling:} Tuned Golang services using \texttt{pprof} to identify and resolve memory leaks, significantly improving performance and stability under high-throughput conditions.
+  \item \textbf{Latency Reduction:} Migrated real-time data pipelines from \texttt{HTTP} to \texttt{WebSockets}, reducing execution and ingestion latency and improving system responsiveness.
+  \item \textbf{Distributed Architecture:} Built robust services using \texttt{Redis} (as cache and message broker), designed with distributed locks, rate limiting, and retry logic for high availability and fault tolerance.
+  \item \textbf{Throttling & Abuse Prevention:} Designed a tiered throttling mechanism to detect and penalize abusive IP behavior based on frequency and load, protecting services from misuse.
+  \item \textbf{Database Optimization:} Tuned \texttt{PostgreSQL} and \texttt{MongoDB} queries, optimized indexes, and resolved deadlocks, reducing latency in high-concurrency environments.
+  \item \textbf{Security & Access Control:} Implemented role-based access control (\texttt{RBAC}) for \texttt{APIs}, enabling secure privilege escalation (admin-to-trader/broker), and hardened access to sensitive trading operations.
+  \item \textbf{Scalable System Design:} Applied distributed system patterns, such as event-driven architecture and background job queues, to ensure scalability and fault isolation.
+  \item \textbf{Linux Troubleshooting:} Utilized shell scripting and common Linux tools to debug system-level issues and ensure service uptime.
+  \item \textbf{Collaboration:} Worked across global teams, leading backend initiatives for a mission-critical trading platform; reviewed code, mentored juniors, and coordinated releases.
 \end{itemize}
 \vspace{0.5em}
 \textbf{\large \textcolor{customblue}{Lead Software Engineer, Securiti.ai (Remote, Pakistan)}} \hfill \textcolor{gray}{Nov 2021 -- Dec 2024} \\
@@ -83,12 +86,12 @@ Lead Software Engineer with diverse technical expertise in software engineering,
     \item \textbf{Microservices and Data Processing:} Developed scalable microservices for personal data identification in structured/unstructured formats, leveraging proprietary and open-source libraries. 
     \item \textbf{Access Control and Security:} Implemented fine-grained role-based access control for APIs and sensitive payloads. (Go)
     \item \textbf{Performance Enhancements:} Optimized network latency by replacing HTTP GET with WebSocket communication and Redis Streams. Improved structured data parsing latency by 50\%. (Go, Java)
-    \item \textbf{AWS Migration and Integration:} Upgraded AWS SDKs (S3, SQS, EMR) to v2.x, enhancing reliability, and designed REST APIs for secure secret management and S3 CRUD operations. (Java, Go)
+    \item \textbf{AWS Migration and Integration:} Upgraded \texttt{AWS SDKs (S3, SQS, EMR)} to \texttt{v2.x}, enhancing reliability, and designed \texttt{REST APIs} for secure secret management and \texttt{S3} CRUD operations. (Java, Go)
     \item \textbf{Cardinality Optimization:} Reimplemented Redis HyperLogLog for efficient terabyte-scale dataset processing. (Go, Java)
-    \item \textbf{Testing and Stability:} Improved test coverage for commercial features and stabilized pipelines with enhanced validation checks. (Go, Python)
-    \item \textbf{Code Refactoring and Tech Debt Reduction:} Reduced technical debt by refactoring and removing over 5,000 lines of redundant code. (Go, Java)
-    \item \textbf{Library Enhancements:} Contributed to open-source TableSaw library by implementing advanced CSV column data type detection. (Java)
-    \item \textbf{Document Parsing:} Optimized tools like Apache Tika and PDFBox for efficient document parsing. (Java)
+    \item \textbf{Testing and Stability:} Implemented over 5,000 unit tests in \texttt{Java (JUnit)} and \texttt{Golang (testing, Testify)}, improving test coverage for commercial features and enhancing CI/CD pipeline stability. (Go, Java)
+    \item \textbf{Code Refactoring and Tech Debt Reduction:} Reduced technical debt by refactoring and removing redundant code. (Go, Java)
+    \item \textbf{Library Enhancements:} Contributed to open-source \texttt{TableSaw} library by implementing advanced CSV column data type detection. (Java)
+    \item \textbf{Document Parsing:} Optimized tools like \texttt{Apache Tika} and \texttt{PDFBox} for efficient document parsing. (Java)
 \end{itemize}
 \vspace{-0.4em}
 \textbf{Key Contributions:}
