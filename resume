@@ -168,10 +168,11 @@ Awarded for exceptional work in developing next-generation AI solutions at Afini
 \begin{itemize}[leftmargin=1em, label={--}]
   \item \textbf{\href{https://github.com/SahibYar/MCPGen}{MCPGen}} - Auto-generates multiservice MCP servers from OpenAPI v2/v3 specs. Parses Swagger and Arazzo files, integrates with LLMs for intelligent API coordination and workflow orchestration
   \item \textbf{\href{https://github.com/SahibYar/go-i18n-db}{go-i18n-db}} - PostgreSQL-based internationalization library with nested JSON flattening, multi-tenant support, CRUD operations, bulk import/export, and CLI tooling
-  \item \textbf{Major Contributions:} Active contributor to \texttt{quic-go}, \texttt{go-libp2p}, \texttt{jtablesaw}, \texttt{ISO8583-go} with multiple merged PRs improving performance and functionality
-  \item \textbf{Protocol Research:} Exploring cutting-edge Web Transport and HTTP/3 protocols, contributing to next-generation web communication standards
-  \item \textbf{Technical Content:} Created educational YouTube content on software development, reaching developers worldwide with practical programming tutorials
-  \item \textbf{Community Impact:} 15+ open source pull requests merged across various projects, focusing on performance optimization and developer experience improvements
+  \item \textbf{Enterprise SDK Optimization:} Contributed critical performance and security improvements to major Go libraries including \href{https://github.com/alpacahq/alpaca-trade-api-go}{Alpaca Trading API} (4 merged PRs) and \href{https://github.com/fastly/go-fastly}{Fastly Go SDK} (8 merged PRs), focusing on resource leak prevention, runtime optimization, and modern Go practices
+  \item \textbf{Next-Gen Protocol Development:} Enhanced \href{https://github.com/quic-go/quic-go}{quic-go} QUIC implementation and \href{https://github.com/libp2p/go-libp2p}{go-libp2p} peer-to-peer networking, contributing to cutting-edge HTTP/3 and WebTransport protocols that power modern web infrastructure
+  \item \textbf{Data Processing Innovation:} Improved \href{https://github.com/jtablesaw/tablesaw}{TableSaw} Java library with advanced CSV parsing capabilities, enhancing data science workflows for enterprise analytics platforms
+  \item \textbf{Technical Content Creator:} Developed educational YouTube content on software development, reaching global developer community with practical programming tutorials and best practices
+  \item \textbf{Community Impact:} 15+ merged pull requests across high-impact projects, specializing in performance optimization, memory management, security hardening, and developer experience improvements
 \end{itemize}
 
 \end{document}
