@@ -229,6 +229,33 @@
 
   \resumeSubHeadingListEnd
 
+%-----------PROJECTS-----------
+\section{Projects}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{PersonalCFA.com} $|$ \emph{Founder \& Engineer}}{}
+\resumeItemListStart
+
+\resumeItem{Built an investment research and financial analytics platform focused on company valuation, stock analysis, and investor education.}
+
+\resumeItem{Designed and implemented scalable backend services using Go, PostgreSQL, Redis, and REST APIs for financial data processing and analytics delivery.}
+
+\resumeItem{Developed an AI-assisted research layer using LLMs with retrieval augmented generation (RAG), leveraging Pinecone vector database for semantic search over financial documents and filings.}
+
+\resumeItem{Implemented document ingestion pipeline including chunking strategies, embedding generation, and metadata enrichment to improve retrieval accuracy and reduce hallucination risk.}
+
+\resumeItem{Introduced LLM guardrails to enforce structured financial outputs, reduce invalid responses, and ensure domain-consistent valuation reasoning.}
+
+\resumeItem{Collaborated with a CFA charterholder to refine financial logic, validate valuation workflows, and improve business requirements translation into model design.}
+
+\resumeItem{Independently handled full-stack product development including system architecture, deployment, and production infrastructure.}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
@@ -278,7 +305,7 @@
   \resumeSubHeadingListEnd
 
 %-----------OPEN SOURCE CONTRIBUTIONS & PROJECTS-----------
-\section{Open Source Contributions \& Projects}
+\section{Open Source Contributions}
   \resumeSubHeadingListStart
     \resumeProjectHeading
           {\textbf{MCP OpenAPI Server Generator} $|$ \emph{Go, OpenAPI, LLM Integration}}{Project}
